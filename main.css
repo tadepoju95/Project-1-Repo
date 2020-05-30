@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+div.container {
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+header.a {
+    background-color: steelblue;
+    padding: 25px;
+    background-size: cover;
+    position: relative;
+    bottom: 10px;
+        
+}
+.logo1 {
+    background-color: red;
+    color: white;
+    border-radius: 4.5px;
+    text-indent: 10px;
+    font-size: 11px;
+    width: 7%;
+    transform: translateX(140%); 
+    
+}
+.logo2 {
+    background-color: red;
+    color: white;
+    border-radius: 4.5px;
+    font-size: 30px;
+    margin-top: 6px;
+    width: 8%; 
+    transform: translateX(110%); 
+    letter-spacing: 5px;
+    font-family: monospace, sans-serif, serif;
+
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    padding: 10px    
+
+}
+a::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 3px;
+    position: relative;
+    right: 17px;
+    top: 14px;
+    
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: red; 
+}
+img.img1 {
+    width: 20%;
+    height: 200px;
+    border: solid 12px whitesmoke;
+    transform: translateX(995px);
+    margin: 10px;
+    
+}
+figure.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+p.title{
+    color: skyblue;
+    position: absolute;
+    bottom: -15%;
+    padding: 20%;
+    transform: translateX(-140px);
+    line-height: 1.5;
+    font-size: 30px;
+    word-spacing: 20px;
+    
+    
+}
+.about-description {
+   text-align: flex-start;
+    position: absolute;
+    bottom: -50%;
+    padding: 20%;
+    transform: translateX(-140px);
+    line-height: 1.5;
+    
+    
+}
+  
+  
+ 
+.fold::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 75px solid whitesmoke;
+    border-left: 75px solid transparent; 
+    position: absolute;
+    top: 0;
+    right: 0.5px;
+}
+
+p.work { 
+    background-color: darkgreen;
+    color: white;
+    border-radius: 4.5px;
+    text-indent: 4px;
+    font-size: 15px;
+    width: 9%;
+    margin: 20px;
+    padding: 9px;
+    transform: translateX(589px)
+    
+}
+section.container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    position: relative;
+}
+.boxa, .boxb, .boxc  {
+    padding: 90px;
+    border: 5px solid whitesmoke; 
+    width: 25%;
+    background: linear-gradient(90deg, pink, white, rgb(204, 204, 255));
+    border-style: double;
+    margin: 25px;
+        
+}
+.box::before {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 10px;
+    padding: 1%;
+    background-color: grey;
+    position: absolute;
+    bottom: 226px;
+    transform: rotate(3deg);
+    opacity: 0.3;
+     
+}
+figcaption {
+    transform: translateY(150px)
+}
+footer.container {
+    padding: 185px;
+    background-color: steelblue;
+    transform: translatey(75px);
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    
+}
+div.fa{
+  font-size: 30px; 
+   width: 40px;   
+   transform: translateX(-25px) translateY(-25px);
+    
+}
+img.img2 {
+    width: 15%;
+    height: 150px;
+    margin: 10px;
+    transform: rotateX(50deg);
+    position: absolute;
+    right: 85%;
+    bottom: 200px;
+}
+ul.list {
+    list-style-type: none;
+    transform: translateX(-120px) translateY(-150px);
+    
+}
+li {
+    margin: 5px;
+    color: white; 
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+ul {
+    color: white;
+    transform: translateX(100px) translateY(-130px);
+    font-size: 20px;
+    
+    
+}
+
+img.img3 {
+    width: 20%;
+    height: 120px;
+    transform: translateX(99px);
+    margin: 10px;
+    position: absolute;
+    left: 60%;
+    bottom: 150px;
+    
+}
+p.copy {
+    position: absolute;
+    top: 325px;
+    left: 85%;
+    
+}
+span {
+    position: relative;
+    left: 5px;
+}
+div.icon1 {
+    position: absolute;
+    top: 90%;
+    
+}
+div.icon2 {
+    position: absolute;
+    top: 90%;
+    left: 17%;
+    
+}
+
